@@ -1,5 +1,6 @@
 package br.com.etecia.myapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -26,7 +27,9 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-
+                   //ABRIR JANELA DE LOGIN
+                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(intent);
             }
         },2000);
 
