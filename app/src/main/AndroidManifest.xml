@@ -18,10 +18,10 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-        <activity>
-            <intent-filter
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
+            <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
         <category android:name="android.intent.category.LAUNCHER" />
