@@ -30,6 +30,7 @@ public class SplashActivity extends AppCompatActivity {
                    //ABRIR JANELA DE LOGIN
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
+                finish();
             }
         },2000);
 
